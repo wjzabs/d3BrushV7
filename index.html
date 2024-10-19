@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    <style>
+      svg {
+        width: 960px;
+        height: 500px;
+        border: 1px solid gray;
+      }
+      .table {
+        width: 960px;
+        height: 500px;
+        overflow: scroll;
+      }
+      .axis {
+        font-size: 10px;
+      }
+      .axis path {
+        fill: none;
+        stroke: #000000;
+      }
+      .axis .tick line {
+        stroke: #000;
+      }
+
+      .background {
+        visibility: visible !important;
+      }
+
+      .extent {
+          visibility: visible !important;
+          fill: #c200a3;
+      }
+
+      .resize rect {
+          visibility: visible !important;
+          fill: #64e098;
+          display: block;
+      }
+    </style>
+  </head>
+  <body>
+   
+    <!-- <svg></svg> -->
+    
+    <div id="display"></div>
+
+    <script src="http://d3js.org/d3.v7.js"></script>
+    <script src="obsBrush.js"></script>
+
+  </body>
+</html>
